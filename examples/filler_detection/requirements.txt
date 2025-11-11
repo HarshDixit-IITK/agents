@@ -1,0 +1,15 @@
+# Requirements for Filler Detection Extension
+# Uses ONLY LiveKit's built-in STT, TTS, and LLM - no external APIs needed!
+
+# Core LiveKit dependency (install from parent directory)
+# pip install ../../livekit-agents/
+
+# Testing (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Development (optional)
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.0.0
+
