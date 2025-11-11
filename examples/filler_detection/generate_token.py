@@ -10,9 +10,9 @@ import sys
 from livekit import api
 
 # Your LiveKit credentials
-LIVEKIT_URL="wss://salescode-9jdd6emu.livekit.cloud"
-LIVEKIT_API_KEY="APIBFVmpwHACdqN"
-LIVEKIT_API_SECRET="iaPyTzkqfoYzwItww2UH5HEnLhq0fBQICqkQU5gPeTuA"
+LIVEKIT_URL="your credential"
+LIVEKIT_API_KEY="your credential"
+LIVEKIT_API_SECRET="your credential"
 
 def generate_token(room_name: str = "filler-test-room", participant_name: str = "test-user"):
     """Generate a token for joining a room."""
