@@ -189,10 +189,6 @@ export LIVEKIT_URL="wss://your-instance.livekit.cloud"
 export LIVEKIT_API_KEY="your-livekit-api-key"
 export LIVEKIT_API_SECRET="your-livekit-api-secret"
 
-# Provider API keys
-export DEEPGRAM_API_KEY="your-deepgram-api-key"
-export OPENAI_API_KEY="your-openai-api-key"
-export ELEVENLABS_API_KEY="your-elevenlabs-api-key"
 
 # Run the agent in dev mode
 python3 example_agent.py dev
@@ -220,9 +216,7 @@ cd examples/filler_detection
 export LIVEKIT_URL="wss://your-instance.livekit.cloud"
 export LIVEKIT_API_KEY="your-api-key"
 export LIVEKIT_API_SECRET="your-api-secret"
-export DEEPGRAM_API_KEY="your-deepgram-key"
-export OPENAI_API_KEY="your-openai-key"
-export ELEVENLABS_API_KEY="your-elevenlabs-key"
+
 
 # Run the agent
 python3 example_agent.py dev
@@ -336,11 +330,7 @@ LIVEKIT_URL=wss://your-instance.livekit.cloud
 LIVEKIT_API_KEY=your-api-key
 LIVEKIT_API_SECRET=your-api-secret
 
-# Provider API keys
-DEEPGRAM_API_KEY=your-deepgram-key
-OPENAI_API_KEY=your-openai-key
-ELEVENLABS_API_KEY=your-elevenlabs-key
-```
+
 
 Configure filler detection in code:
 ```python
